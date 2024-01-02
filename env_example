@@ -1,0 +1,21 @@
+DATABASE_URL=sqlite+aiosqlite:///./fastapi.db
+SECRET_KEY=MY_SECRET_KEY
+ADMIN_EMAIL=adm@adm.com
+ADMIN_PASSWORD=adm
+
+# Почтовый адрес вашего личного аккаунта Google:
+EMAIL=user@mail.com
+
+# Укажите данные для работы ваших Python-приложений с подключёнными Google API
+# Эти данные передаются платформой (Google Cloud Platform) в json-файле 
+# при создании ключа доступа к вашему сервисному аккаунту
+TYPE=Service_account
+PROJECT_ID=
+PRIVATE_KEY_ID=
+PRIVATE_KEY=
+CLIENT_EMAIL=
+CLIENT_ID=
+AUTH_URI=
+TOKEN_URI=
+AUTH_PROVIDER_X509_CERT_URL=
+CLIENT_X509_CERT_URL=
